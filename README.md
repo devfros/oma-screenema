@@ -10,6 +10,8 @@ moves like someone was actually filming you.
 
 `Rust` · `Cairo` · `GTK 4.10` · `MIT`
 
+![A Screenema take: the camera eases in on the terminal as you work, holds, then eases back out](assets/demo.gif)
+
 </div>
 
 ---
@@ -210,6 +212,18 @@ specifically `cursorFollowCamera.ts`, `sceneMotion.ts`, `motionSmoothing.ts`, an
 `zoomSuggestionUtils.ts`. This Rust/Cairo implementation takes its safe-zone and
 spring-motion principles from there. Click clustering uses the same 2.5 s gap;
 the phase durations and transition curve are this implementation's own.
+
+---
+
+## Demo
+
+The GIF above is a real take, re-encoded to 640px/15fps from a 2724×1244 60fps
+capture. Nothing is staged: watch the framing ease in on the terminal, hold
+while the work continues, then release. The zoom is at its peak for a beat, not
+a single frame.
+
+If you want the full-resolution original, record your own take — it lands in
+`~/Videos/OmaScreenema/`.
 
 ---
 
